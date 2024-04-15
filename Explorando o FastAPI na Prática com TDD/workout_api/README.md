@@ -6,7 +6,7 @@ FastAPI é um moderno e rápido (alta performance) framework web para construç�
 ### Async
 Código assíncrono apenas significa que a linguagem tem um jeito de dizer para o computador / programa que em certo ponto, ele terá que esperar por algo para finalizar em outro lugar
 
-# Projeto
+# Projeto Desenvolvendo sua Primeira API com FastAPI, Python e Docker
 ## WorkoutAPI
 
 Esta é uma API de competição de crossfit chamada WorkoutAPI (isso mesmo rs, eu acabei unificando duas coisas que gosto: codar e treinar). É uma API pequena, devido a ser um projeto mais hands-on e simplificado nós desenvolveremos uma API de poucas tabelas, mas com o necessário para você aprender como utilizar o FastAPI.
