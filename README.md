@@ -1,7 +1,8 @@
 # Python AI Backend Developer Bootcamp - Coding The Future Vivo
 
-<img src="https://hermes.dio.me/tracks/648ef080-6c4b-4e54-bf72-34f62030f350.png" alt="Python AI Backend Developer Bootcamp" width="500" height="300">
-
+<p align="center">
+   <img src="https://hermes.dio.me/tracks/648ef080-6c4b-4e54-bf72-34f62030f350.png" alt="Python AI Backend Developer Bootcamp" width="400" height="300" >
+<p>
 
 ## Detalhes do Bootcamp
 
