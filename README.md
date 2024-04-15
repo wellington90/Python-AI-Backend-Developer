@@ -16,6 +16,15 @@ Com conteúdo atualizado e completamente inédito na plataforma, você vai:
 - Aprender a integrar esse conhecimento ao framework FastAPI e LangChain
 - Aprofundar no desenvolvimento web construindo APIs a partir da metodologia de testes unitários com TDD
 
+### Atividades do Bootcamp
+Durante o bootcamp, você participará de diversas atividades e módulos, incluindo:
+- **Python Essencial e Desenvolvimento Colaborativo com Git**
+- **Dominando Python e Suas Estruturas de Dados**
+- **Orientação a Objetos e Boas Práticas em Python**
+- **Bancos de Dados SQL e NoSQL Para Devs Backend**
+- **Explorando o FastAPI na Prática com TDD**
+- **Desmistificando os Pilares da Inteligência Artificial (IA)**
+
 ### Metodologia
 Nesta trilha, você vai desenvolver suas habilidades através de:
 - Projetos práticos
