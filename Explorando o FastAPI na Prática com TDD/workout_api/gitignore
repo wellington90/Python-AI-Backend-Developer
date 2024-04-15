@@ -1,0 +1,28 @@
+# Arquivos de byte compilados Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Arquivos de ambiente
+.env
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Arquivos de log e cache
+*.log
+logs/
+*.swp
+*.swo
+.cache/
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Dependências e diretórios de distribuição
+dist/
+build/
+*.egg-info/
