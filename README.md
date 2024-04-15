@@ -31,10 +31,5 @@ Além disso, ao concluir o bootcamp, você ficará disponível na Talent Match, 
 - Conhecimento básico em programação Python
 - Familiaridade com conceitos de programação orientada a objetos é um plus
 
-## Como participar
-Fique atento às próximas turmas e inscreva-se para não perder essa oportunidade de impulsionar sua carreira como Python AI Backend Developer!
 
----
-
-Esperamos você para embarcar nesta jornada de aprendizado e crescimento profissional!
 
