@@ -22,9 +22,6 @@ Nesta trilha, você vai desenvolver suas habilidades através de:
 - Desafios de códigos
 - Mentorias com experts da DIO
 
-### Talent Match
-Além disso, ao concluir o bootcamp, você ficará disponível na Talent Match, uma plataforma exclusiva para tech recrutadores de empresas parceiras da DIO que procuram profissionais com perfil de Python AI Backend Developer.
-
 ---
 
 ## Pré-requisitos
