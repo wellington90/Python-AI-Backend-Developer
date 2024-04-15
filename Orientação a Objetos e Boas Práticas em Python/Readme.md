@@ -1,96 +1,95 @@
-Criando uma Classe de Usuário
-Desafio - 1
-Vamos criar uma classe chamada UsuarioTelefone para representar um usuário de telefone. Você pode definir um método especial e depois aplicar conceitos de encapsulamento nos atributos dentro da classe. Lembre-se que, cada usuário terá um nome, um número de telefone e um plano associado, neste desafio, simulamos três planos, sendo: Plano Essencial Fibra, Plano Prata Fibra e Plano Premium Fibra.
+# Desafio de Programação: Classe de Usuário de Telefone
 
-Entrada
-Nome do usuário, número de telefone e plano.
+## Desafio 1: Criando a Classe UsuarioTelefone
 
-Saída
+Vamos criar uma classe chamada `UsuarioTelefone` para representar um usuário de telefone. Esta classe terá os seguintes atributos:
+
+- Nome do usuário
+- Número de telefone
+- Plano (Plano Essencial Fibra, Plano Prata Fibra, Plano Premium Fibra)
+
+### Entrada
+- Nome do usuário
+- Número de telefone
+- Plano
+
+### Saída
 Mensagem indicando que o usuário foi criado com sucesso.
 
-Exemplos
-A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
+#### Exemplos:
 
+- **Entrada**: 
+  - Nome: Ana
+  - Número: (11) 91111-1111
+  - Plano: Plano Essencial Fibra
+- **Saída**: 
+  - Usuário Ana criado com sucesso.
 
-Entrada----------------------------------Saída
-Ana                      | Usuário Ana criado com sucesso.
-(11) 91111-1111          |
-Plano Essencial Fibra    |
---------------------------------------------
-Sofia                    | Usuário Sofia criado com sucesso.
-(22) 92222-2222          |
-Plano Prata Fibra	     |
---------------------------------------------
-Pedro                    | Usuário Pedro criado com sucesso. 
-(33) 93333-3333          | 
-Plano Premium Fibra      | 
+## Desafio 2: Adicionando Funcionalidades ao Plano
 
+Agora, vamos adicionar uma funcionalidade à classe `UsuarioTelefone` para verificar o saldo disponível em seu plano. Para isso, criaremos uma classe `PlanoTelefone` com os seguintes atributos:
 
+- Nome do usuário
+- Saldo
 
-Adicionando Funcionalidades ao Plano
-Desafio
-Agora, vamos Adicionar uma funcionalidade à classe UsuarioTelefone para que possa ser verificado o saldo disponível em seu plano. Para essa solução, você pode criar uma classe PlanoTelefone, o seu método de inicialização e encapsular os atributos, 'nome' e 'saldo' dentro da classe. Adicione também um método 'verificar_saldo' para verificar o saldo do plano e uma  'mensagem_personalizada' para gerar uma mensagem personalizada.
+E os seguintes métodos:
 
-Condições da verificação do saldo:
-- Caso o saldo seja menor do que 10, retorne: "Seu saldo está baixo. Recarregue e use os serviços do seu plano."
-- Caso o saldo seja maior ou igual a 50, retorne: "Parabéns! Continue aproveitando seu plano sem preocupações."
-- Caso contrário, retorne: "Seu saldo está razoável. Aproveite o uso moderado do seu plano."
+- `verificar_saldo()`: Verifica o saldo do plano e retorna uma mensagem personalizada.
+- `mensagem_personalizada()`: Gera uma mensagem personalizada com base no saldo.
 
-Entrada
-Como entrada, será solicitado o nome, plano (Essencial, Prata, Premium) e saldo atual do cliente.
+### Condições da verificação do saldo:
 
-Saída
-Mensagem personalizada de acordo o saldo do cliente.
+- Saldo < 10: "Seu saldo está baixo. Recarregue e use os serviços do seu plano."
+- Saldo >= 50: "Parabéns! Continue aproveitando seu plano sem preocupações."
+- Caso contrário: "Seu saldo está razoável. Aproveite o uso moderado do seu plano."
 
-Exemplos
-A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
+### Entrada
+- Nome do usuário
+- Plano (Essencial, Prata, Premium)
+- Saldo atual do cliente
 
-Entrada----------------------Saída
-João           | Seu saldo está baixo. Recarregue e use os serviços do seu plano.
-Essencial      |
-9              |
---------------------------------------
-Debora         |  Seu saldo está razoável. Aproveite o uso moderado do seu plano.    
-Prata          |
-11             |
-------------------------------------- 	
-Catarina       | Parabéns! Continue aproveitando seu plano sem preocupações.
-Premium        |
-50             |
+### Saída
+Mensagem personalizada de acordo com o saldo do cliente.
 
+#### Exemplos:
 
+- **Entrada**: 
+  - Nome: João
+  - Plano: Essencial
+  - Saldo: 9
+- **Saída**: 
+  - Seu saldo está baixo. Recarregue e use os serviços do seu plano.
 
-Realizando Chamadas
-Desafio
-Vamos agora, adicionar uma funcionalidade à classe UsuarioTelefone, que realizar chamadas para outros usuários. Cada chamada terá uma duração em minutos e o custo será deduzido do saldo do usuário, suponha o custo de $0.10 por minuto. Você pode criar um método fazer_chamada que vai permitir que o usuário faça a chamada, ele vai receber o destinatario e duracao como parâmetros. Calcule o custo da chamada usando o método 'custo_chamada' do objeto 'plano', além de adicionar o método deduzir_saldo para deduzir o valor do saldo do plano e depois retorne uma mensagem adequada como mostra no exemplo a baixo.
+## Desafio 3: Realizando Chamadas
 
-Entrada
-Número do usuário, número do telefone, saldo inicial, número do destinatário e a duração da chamada em minutos.
+Adicionaremos uma funcionalidade à classe `UsuarioTelefone` para realizar chamadas para outros usuários. O custo da chamada será deduzido do saldo do usuário, com um custo de $0.10 por minuto.
 
-Saída
+### Métodos:
+
+- `fazer_chamada(destinatario, duracao)`: Realiza a chamada e deduz o custo do saldo.
+- `custo_chamada(duracao)`: Calcula o custo da chamada com base na duração.
+- `deduzir_saldo(valor)`: Deduz o valor do saldo do plano.
+
+### Entrada
+- Número do usuário
+- Número do telefone
+- Saldo inicial
+- Número do destinatário
+- Duração da chamada em minutos
+
+### Saída
 Mensagem indicando o sucesso da chamada ou saldo insuficiente para fazer a chamada.
 
-Exemplos
-A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
+#### Exemplos:
 
+- **Entrada**: 
+  - Número: Rodrigo (00) 90000-0000
+  - Saldo inicial: 10.00
+  - Destinatário: (33) 93333-3333
+  - Duração: 60 minutos
+- **Saída**: 
+  - Chamada para (33) 93333-3333 realizada com sucesso. Saldo: $4.00
 
+---
 
-Entrada---------------------Saída
-Rodrigo          |  Chamada para (33) 93333-3333 realizada com sucesso. Saldo: $4.00
-(00) 90000-0000  |
-10.00            |
-(33) 93333-3333  |
-60               |
-------------------------------
-Yule             | 	Chamada para (00) 90000-0000 realizada com sucesso. Saldo: $6.00
-(11) 91111-1111  |
-30.00            | 
-(00) 90000-0000  |
-240              |
--------------------------------
-Amelia           |Saldo insuficiente para fazer a chamada.
-(33) 93333-3333  |
-10.00            |
-(11) 91111-1111  |
-120              |
------------------------------------
+Espero que este README.md ajude a entender o desafio e a implementação proposta. Divirta-se codificando!
